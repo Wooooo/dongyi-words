@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Wooooo/dongyi-words/issues"
   },
-  "homepage": "https://github.com/Wooooo/dongyi-words#readme"
+  "homepage": "https://github.com/Wooooo/dongyi-words#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
