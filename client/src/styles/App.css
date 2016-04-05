@@ -4,7 +4,7 @@ body, html, #app {
 }
 
 
-.index {
+.index > .row {
     background-color: #000000;
     opacity: .7;
 

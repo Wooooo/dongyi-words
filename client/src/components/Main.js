@@ -8,8 +8,11 @@ const AppComponent = React.createClass({
 
         var words = [
             '난 많이 먹는 편이 아니라 그냥 자주먹는거임', //오후 10시 25분
-            '난 다이어트같은 가식은 부리지않는다'
+            '난 다이어트같은 가식은 부리지않는다',
+            '엎드려',
+            '나 자다 깨면 동방에 있는 사람들 산학원까지 오리걸음'
         ];
+        var ddk = require('../images/dongyi-dont-know.png');
 
         return (
             <div className="index container">
@@ -20,20 +23,27 @@ const AppComponent = React.createClass({
                             갓동이님 어록집
                         </h1>
 
-                            {
-                                (()=>{
-                                    return words.map(function(word){
-                                        return (
-                                                <blockquote className="blockquote">
-                                                    {word}
-                                                    <footer className="blockquote-footer">
-                                                        <cite title="김동이">김동이</cite>
-                                                    </footer>
-                                                </blockquote>
-                                        );
-                                    })
-                                })()
-                            }
+                        {
+                            (()=>{
+                                return words.map(function(word){
+                                    return (
+                                            <blockquote className="blockquote">
+                                                {word}
+                                                <footer className="blockquote-footer">
+                                                    <cite title="김동이">김동이</cite>
+                                                </footer>
+                                            </blockquote>
+                                    );
+                                })
+                            })()
+                        }
+
+                        <blockquote className="blockquote">
+                            <img src={ddk} />
+                            <footer className="blockquote-footer">
+                                <cite title="김동이">김동이</cite>
+                            </footer>
+                        </blockquote>
                     </div>
                 </div>
             </div>
