@@ -1,0 +1,19 @@
+{
+  "name": "dongyi-words",
+  "version": "1.0.0",
+  "description": "동이 어록집",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wooooo/dongyi-words.git"
+  },
+  "author": "Taewoo Kim <xodn4195@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wooooo/dongyi-words/issues"
+  },
+  "homepage": "https://github.com/Wooooo/dongyi-words#readme"
+}

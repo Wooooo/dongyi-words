@@ -1,0 +1,14 @@
+/* Base Application Styles */
+body, html, #app {
+    height: 100%;
+}
+
+
+.index {
+    background-color: #000000;
+    opacity: .7;
+
+    height: 100%;
+
+    color: white;
+}
